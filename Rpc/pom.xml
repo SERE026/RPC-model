@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <groupId>RPC-model</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>Rpc</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <name>Rpc</name>
+  <url>http://maven.apache.org</url>
+    
+   <!-- 仓库地址  -->
+   <!-- 
+  <repositories>  
+        <repository>  
+            <snapshots>  
+                <enabled>true</enabled>  
+            </snapshots>  
+            <id>public</id>  
+            <name>Public Repositories</name>  
+            <url>http://localhost:8081/nexus/content/groups/public/</url>  
+        </repository>  
+    </repositories>  
+     -->
+     
+    <!-- 插件地址 -->
+    <!-- 
+    <pluginRepositories>  
+        <pluginRepository>  
+            <id>public</id>  
+            <name>Public Repositories</name>  
+            <url>http://localhost:8081/nexus/content/groups/public/</url>  
+        </pluginRepository>  
+    </pluginRepositories>
+    --> 
+         
+    <!-- 驱动包 -->  
+    <dependencies>
+    	<dependency>
+		  <groupId>cglib</groupId>
+		  <artifactId>cglib-nodep</artifactId>
+		  <version>3.1</version>
+		</dependency>
+     </dependencies>
+     
+     <build>
+	     <sourceDirectory>src/main/java </sourceDirectory>  
+	     <testSourceDirectory>src/test/java</testSourceDirectory>  
+	     <resources>  
+	        <resource>  
+	            <directory>src/main/resources</directory>  
+	        </resource>  
+	     </resources>  
+	     <testResources>  
+	        <testResource>  
+	            <directory>src/test/resources</directory>  
+	        </testResource>  
+	     </testResources>
+    	<finalName>uapi</finalName>
+ 	 </build>
+</project>
