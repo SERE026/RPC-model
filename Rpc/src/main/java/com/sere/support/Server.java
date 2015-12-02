@@ -21,6 +21,12 @@ public interface Server {
 	public void register(Class interfaceDefiner,Class classImpl);
 	
 	/**
+	 * 注册普通类
+	 * @param clazz 需要注册的类
+	 */
+	public void register(Class clazz);
+	
+	/**
 	 * 远程调用服务
 	 * @param invo
 	 */
@@ -37,4 +43,5 @@ public interface Server {
 	 * @return
 	 */
 	public int getPort();
+	
 }
