@@ -16,6 +16,10 @@ import org.objectweb.asm.Opcodes;
 
 /**
  * 功能：生成字节码
+ * 1. javassist
+ * 2. asm 
+ * cglib 采用的是asm
+ * httl 采用的是javassist
  * @author sere
  *
  */
