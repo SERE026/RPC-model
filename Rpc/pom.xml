@@ -51,7 +51,7 @@
 		  <artifactId>javassist</artifactId>
 		  <version>3.15.0-GA</version>
 		</dependency>
-     </dependencies>
+    </dependencies>
      
      <build>
 	     <sourceDirectory>src/main/java </sourceDirectory>  
@@ -66,6 +66,6 @@
 	            <directory>src/test/resources</directory>  
 	        </testResource>  
 	     </testResources>
-    	<finalName>uapi</finalName>
+    	<finalName>Rpc</finalName>
  	 </build>
 </project>
