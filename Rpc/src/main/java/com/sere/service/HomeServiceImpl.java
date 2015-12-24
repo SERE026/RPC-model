@@ -1,5 +1,8 @@
 package com.sere.service;
 
+import com.sere.annotation.Service;
+
+@Service
 public class HomeServiceImpl implements HomeService{
 
 	@Override

@@ -6,6 +6,19 @@ import java.lang.reflect.Proxy;
 
 public class Main {
 	public static void main(String[] args) {
+		//testProxy();
+		
+		Integer a = 100;
+		Integer b = 100;
+		
+		Integer c = 1000;
+		Integer d = 100;
+		
+		System.out.println(a==b);
+		System.out.println(c & d);
+	}
+	
+	public static void testProxy(){
 		InvocationHandler invacationHandler = new InvocationHandler() {
 
 			@Override
