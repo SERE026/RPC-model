@@ -1,0 +1,1 @@
+/deploy/server/ycm_jobs/Tess4jDemo/tess4jShell.sh /deploy/server/ycm_jobs/Tess4jDemo/Rpc.jar start
